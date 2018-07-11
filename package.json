@@ -1,0 +1,10 @@
+{
+  "name": "bikeproxy",
+  "version": "1.0.0",
+  "description": "BikieProxy",
+  "author": "Joakim Stien <joakim.stien@gmail.com>",
+  "main": "proxy.js",
+  "scripts": {
+    "start": "node proxy.js"
+  }
+}
