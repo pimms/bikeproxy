@@ -5,6 +5,7 @@
   "author": "Joakim Stien <joakim.stien@gmail.com>",
   "main": "proxy.js",
   "scripts": {
-    "start": "node proxy.js"
+    "start": "node proxy.js",
+    "start-production": "PROXY_PORT=80 node proxy.js"
   }
 }

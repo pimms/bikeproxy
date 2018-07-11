@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 const httpProxy = require('http-proxy')
 
-const PROXY_PORT = 2000;
+const PROXY_PORT = (process.env.PROXY_PORT === undefined ? 2000 : process.env.PROXY_PORT);
 const API_PORT = 2001;
 const APP_PORT = 2002;
 
